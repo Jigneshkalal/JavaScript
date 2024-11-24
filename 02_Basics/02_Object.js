@@ -21,4 +21,11 @@ object.age=22
 /* console.log(object.test());
 console.log(object.test2()); */
 
+//**************************************************************Object merge and assign and other ******************************************
 
+const obj1 = {1:"a",2:"b"}
+const obj2 = {3:"c",4:"f"}
+
+//const obj3= {obj1,obj2}
+const obj3= Object.assign(obj1,obj2)
+console.log(obj3);
