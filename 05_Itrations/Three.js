@@ -26,3 +26,5 @@ for (const Numofarry of array) {
            console.log(Valueofarry);                                        With arrow function without function name                   
            
         })  */
+
+           
